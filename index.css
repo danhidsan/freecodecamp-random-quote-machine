@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  color: lightsalmon;
+  background-color: lightsalmon;
+}
+
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background-color: white;
+  width: 450px;
+  height: auto;
+  border-radius: 3px;
+  padding: 40px 50px;
+}
+
+.quote-text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+.quote-author {
+  text-align: right;
+  width: 450px;
+  height: auto;
+  font-weight: 500;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+.buttons {
+  margin-top: 28px;
+  width: 100%;
+}
+
+.button-tweet {
+  height: 30px;
+  width: 40px;
+  color: white;
+  background-color: lightsalmon;
+  border-radius: 3px;
+  padding: 8px 10px;
+  font-size: 0.85em;
+}
+
+.button-new {
+  font-size: 0.85em;
+  padding: 8px 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: lightsalmon;
+  color: white;
+  right: 0px;
+}
